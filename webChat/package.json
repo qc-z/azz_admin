@@ -1,0 +1,14 @@
+{
+  "name": "arpt-web-chat",
+  "version": "0.0.1",
+  "description": "web chat for arpt",
+  "dependencies": {
+    "express": "^4.15.2",
+    "multer": "^1.3.0",
+    "redis": "^2.7.1",
+    "socket.io": "^1.7.3"
+  },
+  "scripts": {
+    "start": "node redis-chat.js"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "db": "mongodb://localhost/azz",
+  "port": 82,
+  "app": {
+      "name": "development azz"
+  },
+  "reportFaceUrl": "http://test.legle.cc/face/report.html",
+	"reportSkinUrl": "http://test.legle.cc/skin/report.html",
+  "reportStarUrl": "http://test.legle.cc/star/view/04share/index.html",
+	"reportStarUrlPc": "http://test.legle.cc/star/view/03analysis/index.html",
+  "online": false,
+  "SITE_ROOT_URL": "http://test.legle.cc/wx",
+  "dateStart": "2017-07-02 8:00:00",
+  "dateEnd": "2017-07-02 12:00:00",
+  "wechat": {
+    "appID": "wxe92fab20bfaf18dc",
+    "name":"arpt",
+    "appSecret": "d17dd23e7b5c6b9076ccb37a178b0aa9",
+    "client":"wechat",
+    "callbackURL": "http://test.legle.cc/auth/wechat/callback",
+    "callbackURLRed": "http://test.legle.cc/auth/wechatRed/callback",
+    "callbackURLCoupon": "http://test.legle.cc/auth/wxcoupon/callback",
+    "scope": "snsapi_userinfo",
+    "state":false
+  },
+  "pengai": {
+    "dateStart": "2017-08-25 00:00:00",
+    "dateEnd": "2017-08-27 23:59:59"
+  },
+  "taian": {
+    "appID": "wx548e774e59da71ed",
+    "name":"taian",
+    "appSecret": "73d4052817d83ea39a45dbdd259ce4ab",
+    "client":"wechat",
+    "callbackURLRed": "http://arpt.leglear.com/auth/taian/callback",
+    "scope": "snsapi_userinfo",
+    "state":false
+  },
+  "weixin": {
+    "appId": "wxe92fab20bfaf18dc"
+    , "secret": "d17dd23e7b5c6b9076ccb37a178b0aa9"
+    , "mch_id": "1383387202"
+    , "apiKey": "e1afc06cde8f95a8459185093a05166c"
+    , "access_token": ""
+    , "expire": ""
+    , "new_user_redirect_url": ""
+    , "old_user_redirect_url": ""
+  }
+}

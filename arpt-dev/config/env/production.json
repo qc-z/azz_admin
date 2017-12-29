@@ -1,0 +1,54 @@
+{
+  "db": "mongodb://localhost/arpt-dev",
+  "port": 4300,
+  "app": {
+      "name": "Arpt"
+  },
+  "reportFaceUrl": "http://arpt.leglear.com/face/report.html",
+  "reportSkinUrl": "http://arpt.leglear.com/skin/report.html",
+  "reportStarUrl": "http://arpt.leglear.com/star/view/04share/index.html",
+  "reportStarUrlPc": "http://arpt.leglear.com/star/view/03analysis/index.html",
+  "online": false,
+  "SITE_ROOT_URL": "http://arpt.leglear.com",
+  "wechat": {
+    "appID": "wxe92fab20bfaf18dc",
+    "name":"arpt",
+    "appSecret": "d17dd23e7b5c6b9076ccb37a178b0aa9",
+    "client":"wechat",
+    "callbackURL": "http://arpt.leglear.com/auth/wechat/callback",
+    "callbackURLRed": "http://arpt.leglear.com/auth/wechatRed/callback",
+    "callbackURLCoupon": "http://arpt.leglear.com/auth/wxcoupon/callback",
+    "scope": "snsapi_userinfo",
+    "state":false
+  },
+  "taian": {
+    "appID": "wx548e774e59da71ed",
+    "name":"taian",
+    "appSecret": "e13a7493ab14474f5e674afadd5d0da4",
+    "client":"wechat",
+    "callbackURLRed": "http://arpt.leglear.com/auth/taian/callback",
+    "scope": "snsapi_userinfo",
+    "state":false,
+    "expire": "",
+    "access_token": "",
+    "new_user_redirect_url": "",
+    "old_user_redirect_url": ""
+  },
+  "pengai": {
+    "callbackURLRed": "http://arpt.leglear.com/auth/pengai/callback",
+    "dateStart": "2017-08-29 12:00:00",
+    "dateEnd": "2017-09-05 23:59:59"
+  },
+  "dateStart": "2017-11-07 00:00:00",
+  "dateEnd": "2017-11-10 15:00:00",
+  "weixin": {
+    "appId": "wxe92fab20bfaf18dc"
+    , "secret": "d17dd23e7b5c6b9076ccb37a178b0aa9"
+    , "mch_id": "1383387202"
+    , "apiKey": "e1afc06cde8f95a8459185093a05166c"
+    , "access_token": ""
+    , "expire": ""
+    , "new_user_redirect_url": ""
+    , "old_user_redirect_url": ""
+  }
+}

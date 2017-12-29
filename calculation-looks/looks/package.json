@@ -1,0 +1,12 @@
+{
+  "name": "looks",
+  "version": "0.0.1",
+  "description": "looks for calculation",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.2"
+  },
+  "scripts": {
+    "start": "node looks.js"
+  }
+}
